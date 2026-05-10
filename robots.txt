@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Explicit allowlist for social-media link unfurlers so the Meta debugger
+# stops returning "could be due to robots.txt block." This is redundant with
+# the wildcard above, but Meta's parser is happier seeing each UA listed.
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: facebookcatalog
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+Sitemap: https://legal.yesilyelek.com/sitemap.xml

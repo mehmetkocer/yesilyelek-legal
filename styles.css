@@ -1,0 +1,128 @@
+/* Shared styles for Yeşil Yelek legal pages.
+   Loaded by index.html, delete-account.html, privacy-policy.html, terms.html. */
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f9fafb;
+  padding: 2rem 1rem;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+header.brand {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+header.brand a {
+  color: #16a34a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.5rem;
+  color: #111827;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.5rem;
+  color: #111827;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.4rem;
+  color: #374151;
+}
+
+p, li { font-size: 1rem; }
+
+ol, ul { padding-left: 1.5rem; }
+ol li, ul li { margin-bottom: 0.4rem; }
+
+a { color: #16a34a; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.lede { color: #4b5563; margin-top: 0; }
+
+.lang-divider {
+  margin: 3rem 0 2rem;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
+
+.lang-label {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #f3f4f6;
+  color: #4b5563;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.updated {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.doc-list li {
+  margin-bottom: 0.75rem;
+}
+
+.doc-list a {
+  display: block;
+  padding: 1rem 1.25rem;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.doc-list a:hover {
+  background: #f3f4f6;
+  text-decoration: none;
+  border-color: #d1d5db;
+}
+
+.doc-list .doc-desc {
+  display: block;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
